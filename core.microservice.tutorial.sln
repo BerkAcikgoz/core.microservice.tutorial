@@ -7,7 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{45101ED9-ADED-483A-A18B-5AC7018E7981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services.catalog", "Services\Catalog\services.catalog\services.catalog.csproj", "{BBCD1A28-578A-4A9D-AED0-7FBE720B907F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "services.catalog", "Services\Catalog\services.catalog\services.catalog.csproj", "{BBCD1A28-578A-4A9D-AED0-7FBE720B907F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA5199CD-3689-44C6-99D7-544F9117F053}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
